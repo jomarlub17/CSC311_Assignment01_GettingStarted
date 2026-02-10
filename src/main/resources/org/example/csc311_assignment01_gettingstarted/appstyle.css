@@ -3,3 +3,9 @@
     -fx-padding: 10;
     -fx-spacing: 10;
 }
+.calculate-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+

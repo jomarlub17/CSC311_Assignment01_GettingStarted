@@ -11,6 +11,15 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
+    <Label text="Number 1:"/>
+    <TextField fx:id="field1" promptText="Enter first number"/>
+
+    <Label text="Number 2:"/>
+    <TextField fx:id="field1" promptText="Enter second number"/>
+
+    <Button text="Calculate Sum" onAction="#onCalculateButtonClick" styleClass="calculate-button"/>
+
+
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onCalculateButtonClick"/>
 </VBox>
